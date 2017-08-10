@@ -168,5 +168,3 @@ function alert_popup( $content ) {
 add_filter( 'the_excerpt', 'alert_popup' );
 add_filter( 'the_content', 'alert_popup' );
  ?>
-   
-   
