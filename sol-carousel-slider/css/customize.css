@@ -1,0 +1,89 @@
+.myCarousel.sc-theme .carousel-caption {
+  bottom: 0;
+  color:#fff;
+  left: 0;
+  padding-bottom: 0;
+  text-align: left;
+  width: 100%;
+  background:rgba(0,0,0,0.5);
+  padding:8px 0 0px 8px;
+  position:absolute;
+  text-shadow: none;
+  font-size: 12px;
+}
+.myCarousel .carousel-caption .sc-title{
+    font-weight:bold;
+}
+.myCarousel .carousel-caption h7 {
+  float: left;
+  width: 65%;
+}
+.myCarousel .carousel-caption a {
+  box-shadow: none;
+  color: #ffffff;
+  text-decoration: none;
+}
+.myCarousel .carousel-caption a:hover{
+    text-decoration: none;  
+    box-shadow: none;
+    color:#438DCF;
+}
+.myCarousel .carousel-caption a.cs-readmore {
+  background: #0071c5;
+  float: right;
+  margin-bottom: 10px;
+  padding: 7px;
+}
+.myCarousel .carousel-caption a.cs-readmore:hover {
+  background:#438DCF;
+  color:#fff;
+}
+.myCarousel a.carousel-control:hover ,
+.myCarousel a.carousel-control:focus {
+    box-shadow:none;
+}
+ .myCarousel .item img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+.myCarousel .sc-content{
+  position: relative;
+}
+.myCarousel .sc-social > a {
+  background: #0071c5 none repeat scroll 0 0;
+  box-shadow: none;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 10px;
+  text-decoration: none;
+  text-shadow: none;
+}
+.myCarousel .sc-social a:hover{
+    text-decoration: none;  
+    background:#438DCF;
+    color:#fff;
+}
+.myCarousel .sc-social i {
+  margin-top: 8px;
+  padding: 5px;
+}
+.myCarousel .carousel-caption a:hover i{
+    color:#fff;
+    background:#438DCF;
+}
+.myCarousel .sc-social {
+  text-align: center;
+  margin-top: 15px;
+}
+#skin3.myCarousel .sc-content > a {
+    display: block;
+    overflow: hidden;
+}
+.myCarousel .sc-buttons i {
+    font-size: 20px;
+}
+.nav-text{
+    margin:10px 0;
+}

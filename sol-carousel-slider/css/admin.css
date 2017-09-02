@@ -1,0 +1,199 @@
+/* css for customize */
+.ui-checkboxradio-radio-label .ui-icon-background {
+	width: 0;
+        border:none;
+	
+}
+.ui-checkboxradio-radio-label.ui-checkboxradio-checked .ui-icon, .ui-checkboxradio-radio-label.ui-checkboxradio-checked:hover .ui-icon {
+	background-image: none;
+	width: 0;
+	height: 0;
+	border-width: 0;
+	border-style: solid;
+}
+#skinwrap .selectedimage{
+    border:2px solid #56417E;
+}
+#skinwrap img{
+    margin-right:10px;
+}
+.wrap-inner .sc-header {
+    background:#CCCCCC;
+    padding:15px 20px;
+}
+.wrap-inner .sc-header h2 {
+  color: #fff;
+  margin: 5px 0;
+}
+/*tabs css
+*/
+
+div#settings {
+    position: relative;
+    padding-left: 200px;
+}
+ 
+div#settings > div {
+    min-height: 300px;
+}
+ 
+div#settings .ui-tabs-nav {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 200px;
+    padding: 5px 0px 5px 5px;
+}
+ 
+div#settings .ui-tabs-nav li {
+    left: 0px;
+    width: 195px;
+    border-right: none;
+    overflow: hidden;
+    margin-bottom: 2px;
+}
+ 
+div#settings .ui-tabs-nav li a {
+    float: right;
+    width: 100%;
+    text-align: right;
+}
+ 
+div#settings .ui-tabs-nav li.ui-tabs-selected {
+    border: none;
+    border-right: solid 1px #fff;
+    background: none;
+    background-color: #fff;
+    width: 200px;
+}
+div#settings
+{
+    position: relative;
+    padding-left: 200px;
+ 
+    > div
+    {
+        min-height: 300px;
+    }
+ 
+    .ui-tabs-nav
+    {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        bottom: 0px;
+        width: 200px;
+        padding: 5px 0px 5px 5px;
+ 
+        li
+        {
+            left:  0px;
+            width: 195px;
+            border-right: none;
+            overflow: hidden;
+            margin-bottom: 2px;
+ 
+            a
+            {
+                float: right;
+                width: 100%;
+                text-align: right;
+            }
+        }
+ 
+        li.ui-tabs-selected
+        {
+            border: none;
+            border-right: solid 1px #fff;
+            background: none;
+            background-color: #fff;
+            width: 200px;
+        }
+    }
+}
+.navigation-style {
+	padding: 10px;
+	border: 1px solid #ccc;
+	margin-right: 5px;
+        font-size: 25px;
+}
+.navigation-style:hover {
+    cursor: pointer;
+}
+.selectednav{
+    border:2px solid #56417E;
+}
+input.error{
+    border:1px solid red;
+}
+#settings-tabs-wrapper .sc-header {
+  background:#BEA5E0;
+}
+#settings-tabs-wrapper .ui-tabs-nav{
+    background:#BEA5E0;
+}
+
+#settings-tabs-wrapper .ui-tabs-nav .ui-state-active.ui-state-default{ 
+    background:#56417E;
+    
+}
+#settings-tabs-wrapper .ui-tabs-nav a{
+    color:#56417E;
+}
+#settings-tabs-wrapper .ui-tabs-nav .ui-state-active a{
+    color:#fff;
+}
+#settings-tabs-wrapper .ui-tabs-nav .ui-state-default{
+    background:#d1d0eb;
+}
+#settings-tabs-wrapper .ui-state-hover:hover{
+    background:#56417E;
+}
+#settings-tabs-wrapper .ui-state-hover:hover a{
+    color:#fff;
+}
+
+#settings-tabs-wrapper .buttonset > label {
+  border-radius: 0;
+}
+#settings-tabs-wrapper .buttonset > label.ui-button {
+  color: #fff;
+  font-weight: bold;
+}
+#settings-tabs-wrapper .sc-body .ui-checkboxradio-checked.ui-checkboxradio-label {
+    background:#56417E;
+}
+#settings-tabs-wrapper .sc-body .ui-checkboxradio-label {
+    background:#d1d0eb;
+}
+#settings-tabs-wrapper input[type='number'],#settings-tabs-wrapper  input[type='text']  ,#settings-tabs-wrapper select{
+    width:200px;
+}
+.form-table input[type='text'] ,.form-table input[type='number'] , .form-table select{
+    width: 200px;
+}
+.sc-dialog-slider{
+    
+    padding:0;
+}
+.sc-dialog-slider .ui-dialog-titlebar {
+  background:#d1d0eb;
+  color: #56417E;
+  border-radius: 0px;
+}
+
+.ui-widget-overlay {
+  background: #000 none repeat scroll 0 0;
+  opacity: 0.6;
+}
+.sc-dialog-slider .ui-dialog-titlebar-close {
+  height: auto;
+  position: absolute;
+  right: 0.3em;
+  top: 40%;
+  width: auto;
+}
+.sc-dialog-slider .ui-dialog-titlebar button::before {
+  content: "X";
+}
